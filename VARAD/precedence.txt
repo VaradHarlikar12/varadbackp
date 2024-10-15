@@ -1,0 +1,10 @@
+#include <iostream>
+#include<iomanip>
+using namespace std;
+int main() {
+   //left to right hotay precedence mostly
+   int a=2,b=5;
+   int c=((((a*5)+b))-40)+90;
+   cout<<c<<endl;//will produce value 65 as it will solve brackets,the as per hieracry it will work
+    return 0;
+}//precedence,hierachy pramane set karcha mhanje here * has more precedence then + so it is in bracket
