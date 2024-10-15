@@ -30,5 +30,6 @@ int main(){
     c1.display();
     cout<<"suiiiii";
     cout<<"suiiiii";
+    cout<<"suiiiii";
     return 0;
 }
